@@ -273,7 +273,7 @@ th {
   h2,
   h3 {
     page-break-after: avoid;
-	color:#FFF;
+  color:#FFF;
   }
 
   select {
@@ -4076,8 +4076,9 @@ tbody.collapse.in {
   background-size: cover;
 }
 #section-7 {
-  background: #2e2f41 url(../images/xiaoqu01.jpg) 0 0 no-repeat;
-  background-size: cover;
+  /*background: hsla(172, 59%, 58%, 0.19) 0 0 no-repeat;
+  background-size: cover;*/
+  border-top:1px solid #DBD8D8;
 }
 
 .jumbotron4 h1,
@@ -6737,26 +6738,26 @@ tbody.collapse.in {
 .scheme_txt{display:block;}
 .scheme_txt h1{margin-left:80px;font-size:20px;color:#000000;}
 
-.left{display:inline;width:40%;float:left;margin-left:20px;}
+.left{display:inline;width:40%;float:left;margin-left:30px;}
 .right{display: inline;width:40%;float:left;margin-left:20px;}
 .left a{color:#ffffff;font-size:15px;}
 .right a{color:#ffde00;font-size:15px;}
 
-.chuji_img{float:left;margin-left:0px;}
-.chuji_txt{display:block;background-color:#EAE8E8;}
-.chuji_name,.chuji_detail{margin-left:90px;}
+.chuji_img{width:25%;float:left;margin-left:5px;margin-top:10px;}
+.chuji_txt{display:block;background-color:#EAE8E8;height:auto;padding-top:10px;padding-bottom: 5px;}
+.chuji_name,.chuji_detail{margin-left:80px;}
 .chuji_name{font-weight: bold;font-size:14px;font-family:"微软雅黑";}
 .chuji_detail{font-weight:none;font-size:12px;font-family:"微软雅黑";}
 
-.gaoji_txt{display:block;background-color:#EAE8E8;margin-right:100px;}
-.gaoji_name,.gaoji_detail{}
-.gaoji_name{font-weight:bold;font-size:14px;font-family:"微软雅黑";}
-.gaoji_detail{font-weight:none;font-size: 12px;font-family:"微软雅黑";}
-.gaoji_img{float:right;margin-right:0px;}
+.gaoji{margin-top:20px;}
+.gaoji_txt{display:block;background-color:#EAE8E8;height:auto;padding-top:10px;padding-bottom: 5px;}
+.gaoji_name{font-weight:bold;font-size:14px;font-family:"微软雅黑";margin-right: 80px;}
+.gaoji_detail{font-weight:none;font-size: 12px;font-family:"微软雅黑";margin-right: 80px;}
+.gaoji_img{width:25%;float:right;margin-right:5px;margin-top:5px;}
 
 .zhuanye{margin-top:50px;margin-left:auto;margin-right:auto;}
-.zhuanye td{width:100px;height:30px;border:1px solid #000000;}
-.zhuanye th{width:200px;height:30px;text-align: center;border:1px solid #000000;background-color:#92278f;}
+.zhuanye td{width:100px;height:50px;border:1px solid #000000;font-size:20px;}
+.zhuanye th{width:200px;height:50px;text-align: center;border:1px solid #000000;background-color:#92278f;font-size:20px;}
 .zhuanye a{color:#ffffff;}
 .gw{background-color:#f8931f;}
 .wy1{background-color:#8cc540}

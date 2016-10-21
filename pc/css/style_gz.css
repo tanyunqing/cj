@@ -3971,7 +3971,7 @@ tbody.collapse.in {
 }
 .jumbotron3 p {
   margin-bottom: 15px;
-  font-size: 20px;
+/*  font-size: 20px;*/
   font-weight: 200;
 }
 .jumbotron3 > hr {
@@ -6744,17 +6744,18 @@ tbody.collapse.in {
 .left a{color:#ffffff;font-size:15px;}
 .right a{color:#ffde00;font-size:15px;}
 
-.chuji_img{width:25%;float:left;margin-left:5px;margin-top:10px;}
-.chuji_txt{display:block;background-color:#EAE8E8;height:auto;padding-top:10px;padding-bottom: 5px;}
+.chuji_img{width:25%;float:left;margin-left:10px;margin-top:20px;margin-right:10px;}
+.chuji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
 .chuji_name,.chuji_detail{margin-left:80px;}
-.chuji_name{font-weight: bold;font-size:14px;font-family:"微软雅黑";}
-.chuji_detail{font-weight:none;font-size:12px;font-family:"微软雅黑";}
+.chuji_name{font-weight: bold;font-size:20px;font-family:"微软雅黑";}
+.chuji_detail{font-weight:none;font-size:16px;font-family:"微软雅黑";color:#000000;text-align:left;margin-right:5px;}
 
-.gaoji{margin-top:20px;}
-.gaoji_txt{display:block;background-color:#EAE8E8;height:auto;padding-top:10px;padding-bottom: 5px;}
-.gaoji_name{font-weight:bold;font-size:14px;font-family:"微软雅黑";margin-right: 80px;}
-.gaoji_detail{font-weight:none;font-size: 12px;font-family:"微软雅黑";margin-right: 80px;}
-.gaoji_img{width:25%;float:right;margin-right:5px;margin-top:5px;}
+.gaoji{margin-top:20px;margin-bottom:20px;}
+.gaoji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
+.gaoji_name{font-weight:bold;font-size:20px;font-family:"微软雅黑";margin-right: 80px;}
+.gaoji_detail{font-weight:none;font-size: 16px;font-family:"微软雅黑";margin-right: 80px;margin-left:10px;color:#000000;text-align:left;}
+.gaoji_img{width:25%;float:right;margin-right:5px;margin-top:20px;margin-right:10px;}
+.baomingbutton{display:block;width:160px;height:40px;background-color:#010103;border-radius: 40px;text-align:center;float:right;margin-right:10px;padding-top:8px;}
 
 .zhuanye{margin-top:50px;margin-left:auto;margin-right:auto;}
 .zhuanye td{width:100px;height:50px;border:1px solid #000000;font-size:20px;}
@@ -6816,3 +6817,16 @@ tbody.collapse.in {
   margin-left: 0px;
   margin-right:-2px;
 }
+
+.xuanfu{
+  position:fixed;
+  top:150px;
+  left:5px;
+  background-color:#c00525;
+  border:1px solid #000000;
+  border-radius: 10px;
+}
+.xuanfu tr{border-bottom:1px solid #000000;}
+.xuanfu th{padding:8px;color:#F1DF29;}
+.xuanfu td{font-size:8px;padding:5px;}
+.xuanfu a{color:#EAE4E4;}

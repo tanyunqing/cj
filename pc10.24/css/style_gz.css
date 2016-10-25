@@ -1324,7 +1324,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h5, .h5 {
@@ -6588,8 +6588,10 @@ tbody.collapse.in {
 
 .footer-section {
   background: white;
-  text-align: left;
+  text-align: right;
   padding: 60px 0;
+  position:relative;
+  left:300px;
 }
 .footer-section .row.row-padding {
   padding-top: 40px;
@@ -6746,9 +6748,9 @@ tbody.collapse.in {
 
 .chuji_img{width:25%;float:left;margin-left:10px;margin-top:20px;margin-right:10px;}
 .chuji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
-.chuji_name,.chuji_detail{margin-left:80px;}
-.chuji_name{font-weight: bold;font-size:20px;font-family:"微软雅黑";}
-.chuji_detail{font-weight:none;font-size:16px;font-family:"微软雅黑";color:#000000;text-align:left;margin-right:5px;}
+.chuji_name,.chuji_detail{margin-left:100px;}
+.chuji_name{font-weight: bold;font-family:"微软雅黑";margin-top:5px;margin-bottom:5px;}
+.chuji_detail{font-weight:none;font-family:"微软雅黑";color:#000000;text-align:left;margin-right:10px;}
 .chuji{margin-bottom:20px;}
 /*.gaoji{margin-top:20px;margin-bottom:20px;}
 .gaoji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
@@ -6768,13 +6770,14 @@ tbody.collapse.in {
 
 
 .reason{width:40%;margin-left:5px;display: inline-block;}
+.reason1{position:relative;left:140px;}
+.reason2{position:relative;right:140px;}
 .reason img{width:300px;height:180px;}
 .reason_txt{
   background-color: #ffffff;
 }
-.reason_txt h1{
+.reason_txt h4{
   font-weight: bold;
-  font-size:24px;
   padding-bottom: 5px;
   border-bottom:1px solid #DBDBDB;
 }
@@ -6823,21 +6826,22 @@ tbody.collapse.in {
   top:150px;
   left:5px;
   background-color:#2b95d3;
-  border:1px solid #000000;
+  border:1px solid #9A9494;
   border-radius: 10px;
 }
-.xuanfu tr{border-bottom:1px solid #000000;}
+.xuanfu tr{border-bottom:1px solid #9A9494;}
 .xuanfu th{padding:8px;color:#F1DF29;text-align: center;}
 .xuanfu td{font-size:8px;padding:5px;}
 .xuanfu a{color:#EAE4E4;}
 
-header{position:absolute;top:0px;background:hsla(0, 0%, 0%, 0.37);width:100%;color:#ffffff;font-size:25px;padding-top:10px;padding-bottom:5px;}
+header{position:absolute;top:0px;background:hsla(0, 0%, 0%, 0.37);width:100%;padding-top:10px;padding-bottom:5px;}
+header h3{color:#ffffff;}
 
 .fudao li{
   float:left;
   text-align:center;
   width:30%;
-  height:430px;
+  height:480px;
   position:relative;
   list-style-type: none;
 }
@@ -6867,11 +6871,11 @@ header{position:absolute;top:0px;background:hsla(0, 0%, 0%, 0.37);width:100%;col
 }
 .fudao_name{
   height:60px;
-  bottom:100px;
+  bottom:150px;
   font-size:30px;
 }
 .fudao_txt{
-  height:100px;
+  height:150px;
   bottom:0px;
   font-size:14px;
   padding-left:10px;

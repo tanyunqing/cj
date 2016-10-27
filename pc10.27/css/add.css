@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-10-27 18:00:23
+ * @version $Id$
+ */
+.services-section {
+  background: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer-section {
+  background: white;
+  text-align: right;
+  padding: 60px 0;
+  position:relative;
+  left:300px;
+}
+header{position:absolute;top:0px;background:hsla(0, 0%, 0%, 0.37);width:100%;padding-top:10px;padding-bottom:5px;}
+header h3{color:#ffffff;}
+
+.popular li{float:left;width:31%;margin-left:20px;margin-top:20px;list-style-type:none;border-radius: 10px;}
+.popular a{color:#ffffff;}
+
+.scheme{display:inline-block;border-radius: 40px;border:1px solid #E1E0E0;background-color: #ffffff;width:280px;height:78px;margin-left:20px;margin-top:10px;}
+.scheme_img{float:left;position:relative;left:2px;}
+.scheme_txt{display:block;}
+.scheme_txt h1{margin-left:80px;font-size:20px;color:#000000;}
+.scheme_txt a:hover{border-bottom:1px solid #F7F00B;}
+
+.left{display:inline;width:40%;float:left;margin-left:30px;}
+.right{display: inline;width:40%;float:left;margin-left:20px;}
+.left a{color:#ffffff;font-size:15px;}
+.right a{color:#ffde00;font-size:15px;}
+
+.chuji_img{width:25%;float:left;margin-left:10px;margin-top:20px;margin-right:10px;}
+.chuji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
+.chuji_name,.chuji_detail{margin-left:100px;}
+.chuji_name{font-weight: bold;font-family:"微软雅黑";margin-top:5px;margin-bottom:5px;}
+.chuji_detail{font-weight:none;font-family:"微软雅黑";color:#000000;text-align:left;margin-right:10px;}
+.chuji{margin-bottom:20px;}
+/*.gaoji{margin-top:20px;margin-bottom:20px;}
+.gaoji_txt{display:block;background-color:#EAE8E8;height:200px;padding-top:10px;padding-bottom: 5px;}
+.gaoji_name{font-weight:bold;font-size:20px;font-family:"微软雅黑";margin-right: 80px;}
+.gaoji_detail{font-weight:none;font-size: 16px;font-family:"微软雅黑";margin-right: 80px;margin-left:10px;color:#000000;text-align:left;}
+.gaoji_img{width:25%;float:right;margin-right:5px;margin-top:20px;margin-right:10px;}*/
+.baomingbutton{display:block;width:160px;height:40px;background-color:#010103;border-radius: 40px;text-align:center;float:right;margin-right:10px;padding-top:8px;}
+
+.zhuanye{margin-top:50px;margin-left:auto;margin-right:auto;}
+.zhuanye td{width:200px;height:50px;border:1px solid #000000;font-size:20px;}
+.zhuanye th{width:400px;height:50px;text-align: center;border:1px solid #000000;font-size:20px;}
+.one{background-color:#F37251;}
+.two{background-color:#ffffff}
+.one a{color:#ffffff;}
+.two a{color:#000000;}
+
+
+
+.reason{width:40%;margin-left:5px;display: inline-block;}
+.reason1{position:relative;left:140px;}
+.reason2{position:relative;right:140px;}
+.reason img{width:300px;height:180px;}
+.reason_txt{
+  background-color: #ffffff;
+}
+.reason_txt h4{
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom:1px solid #DBDBDB;
+}
+.reason_txt p{
+  font-weight: none;
+  font-size:20px;
+}
+
+.jxts{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+.jxtsp{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  clear:both;
+}
+.jxtsp_left{
+  width:50%;
+  float:left;
+  font-size:12px;
+  line-height: 30px;
+  text-align: right;
+  border-right:2px solid #f9a251;
+}
+.jxtsp_right{
+  width:50%;
+  float:right;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: left;
+}
+.jxtsp_left img{
+  margin-left:2px;
+  margin-right:0px;
+}
+.jxtsp_right img{
+  margin-left: 0px;
+  margin-right:-2px;
+}
+
+.xuanfu{
+  position:fixed;
+  top:150px;
+  left:5px;
+  background-color:#2b95d3;
+  border:1px solid #9A9494;
+  border-radius: 10px;
+}
+.xuanfu tr{border-bottom:1px solid #9A9494;}
+.xuanfu th{padding:8px;color:#F1DF29;text-align: center;}
+.xuanfu td{font-size:8px;padding:5px;}
+.xuanfu a{color:#EAE4E4;}
+
+
+
+.fudao li{
+  float:left;
+  text-align:center;
+  width:30%;
+  height:480px;
+  position:relative;
+  list-style-type: none;
+}
+.fudao img{
+  width:100%;
+  height:270px;
+  position:absolute;
+  top:0px;
+  left:5px;
+}
+.fudao_name,.fudao_txt{
+  display:block;
+  position:absolute;
+  left:5px;
+  width:100%;
+  color:#fff;
+  opacity: 0.7;
+}
+.fudao1{
+    background:#2c77b9;
+}
+.fudao2{
+    background:#405747;
+}
+.fudao3{
+    background:#a13e52;
+}
+.fudao_name{
+  height:60px;
+  bottom:150px;
+  font-size:30px;
+}
+.fudao_txt{
+  height:150px;
+  bottom:0px;
+  font-size:14px;
+  padding-left:10px;
+  padding-right:10px;
+}

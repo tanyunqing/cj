@@ -12,10 +12,8 @@
 }
 .footer-section {
   background: white;
-  text-align: right;
+  text-align: center;
   padding: 60px 0;
-  position:relative;
-  left:300px;
 }
 header{position:absolute;top:0px;background:hsla(0, 0%, 0%, 0.37);width:100%;padding-top:10px;padding-bottom:5px;}
 header h3{color:#ffffff;}
@@ -58,8 +56,8 @@ header h3{color:#ffffff;}
 
 
 .reason{width:40%;margin-left:5px;display: inline-block;}
-.reason1{position:relative;left:140px;}
-.reason2{position:relative;right:140px;}
+.reason1{position:relative;left:80px;}
+.reason2{position:relative;right:80px;}
 .reason img{width:300px;height:180px;}
 .reason_txt{
   background-color: #ffffff;
